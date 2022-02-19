@@ -1,0 +1,53 @@
+package com.edanurhasanoglu.javalearning;
+
+public class Variables {
+    public static void main(String[] args) {
+        //variables
+
+        int age=20;
+        System.out.println(10*age);
+        System.out.println(age/5);
+
+        int x=5;
+        int y=11;
+
+        System.out.println(y/x);
+        //double/float
+
+        double z= 5.0;
+        double a = 11.0;
+
+        System.out.println(a/z);
+        float t =12.0f;
+
+        double pi=3.14;
+        int r=5;
+
+        System.out.println(2*pi*r);
+
+        String name="eda";
+        String surname="nur";
+
+        System.out.println(name);
+        System.out.println(surname);
+
+        String fullname= name+" "+surname;
+
+        System.out.println(fullname);
+        System.out.println(name+ " " +surname);
+
+        //boolean
+
+        boolean isAlive=true;
+        isAlive=false;
+        System.out.println(isAlive);
+
+        //final
+        int myinteger=5;
+        System.out.println("myinteger: " +myinteger);
+        myinteger=4;
+        System.out.println("myinteger: " +myinteger);
+
+
+    }
+}
